@@ -17,7 +17,7 @@
     margin: 20px auto 0px auto;
 }
 
-.AddItemToList {
+.AddItemForm {
     width: 500px;
     margin-right: 25px;
     border-radius: 5px;
@@ -28,9 +28,9 @@
     transition: 0.5s;
     outline: none;    
 }
-.AddItemToList:focus {
+/* .AddItemForm:focus {
     border: solid 2px rgb(20, 218, 175);
-}
+} */
 
 
 .AddItemBtn {
