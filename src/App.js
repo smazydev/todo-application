@@ -10,6 +10,9 @@ function App() {
       <h1 className="Title">Todo List Application</h1>
       <AddItemToList/>
       <ToDoListItem/>
+      <ToDoListItem/>
+      <ToDoListItem/>
+      <ToDoListItem/>
     </div>
   );
 }

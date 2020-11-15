@@ -7,7 +7,7 @@
 
 .Title {
     text-align: center;
-    color: white;
+    color: rgb(42, 42, 42);
     text-transform: uppercase;
     font-size: 25px;
 }
@@ -21,13 +21,81 @@
     width: 500px;
     margin-right: 25px;
     border-radius: 5px;
-    height: 25px;
-    color: white;
-    border: 2px solid white;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    height: 35px;
+    border: 2px solid rgb(161, 161, 161);
+    transition: 0.5s;
+    outline: none;    
+}
+.AddItemToList:focus {
+    border: solid 2px rgb(20, 218, 175);
 }
 
+
 .AddItemBtn {
-    height: 30px;
-    border-radius: 10px;
+    height: 35px;
     width: 125px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid rgb(20,218,175);
+    background-color: rgb(20,218,175);
+    outline: none;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+    color:white;
+}
+.AddItemBtn:hover {
+    background-color: rgb(7, 148, 117);
+    border: 2px solid rgb(7, 148, 117);
+}
+.ButtonContainer {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+.ListBtn {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+.Check {
+    border: 2px solid rgb(20,218,175);
+    background-color: rgb(20,218,175);
+    margin: 0px 10px 0px 20px;
+}
+.Check:hover {
+    background-color: rgb(7, 148, 117);
+    border: 2px solid rgb(7, 148, 117);
+}
+.Cross {
+    border: 2px solid rgb(253, 65, 59);
+    background-color: rgb(253, 65, 59);
+}
+.Cross:hover {
+    background-color: rgb(241, 47, 41);
+    border: 2px solid rgb(241, 47, 41);
+}
+ul  {
+   
+    list-style-type: none;
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto 0px auto;
+}
+ul li {
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 5px;
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 4px 4px;
+    display: inline-block;
+    color: rgb(161, 161, 161);
+    text-transform: uppercase;
 }
