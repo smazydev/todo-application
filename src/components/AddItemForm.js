@@ -1,11 +1,23 @@
-import React from 'react'
+import React from 'react';
 
-export const AddItemForm = () => {
+
+export const AddItemForm = ({setItem}) => {
+    
+    const handleChange = (e) => {
+        setItem(e.target.value)
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+    };
+
     return (
         <div className="FormContainer">
-            <form>
-                <input className="AddItemForm" type="text" htmlFor="ToDoListItem" placeholder="What would you like to do today?"></input>
-                <button className="AddItemBtn" type="submit">Add Item</button>
+            <form onSubmit={handleSubmit}>
+                <input className="AddItemForm" onChange={handleChange}  
+                type="text"  htmlFor="ToDoListItem" placeholder="What would you like to do today?">
+                </input>
+                <button className="AddItemBtn" value="submit">Add Item</button>
             </form>
         </div>
     )

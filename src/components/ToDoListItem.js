@@ -3,12 +3,13 @@ import {CheckCrossBtn} from '../components/CheckCrossBtn';
 import '../App.css';
 
 
-export const ToDoListItem = () => {
+export const ToDoListItem = ({Item}) => {
+    
     return (
-        <div class="ListContainer">
+        <div className="ListContainer">
             <ul>
                 <li>
-                    Hello World
+                    {Item}
                 </li>
                 <CheckCrossBtn/>
             </ul>
