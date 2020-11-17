@@ -8,7 +8,7 @@ export const ToDoList = ({todos}) => {
     return (
         <div className="ListContainer">
             <ul>
-                {todos.map(todo => (<ToDoListItem text={todo.text} id={todo.id}/>))}
+                {todos.map(todo => (<ToDoListItem text={todo.text} key={todo.id}/>))}
             </ul>
         </div>
     )
