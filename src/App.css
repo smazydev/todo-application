@@ -14,12 +14,12 @@
 
 .FormContainer {
     width: 50%;
-    margin: 20px auto 0px auto;
+    margin: auto auto;
 }
 
 .AddItemForm {
-    width: 500px;
-    margin-right: 25px;
+    width: 400px;
+    margin-right: 20px;
     border-radius: 5px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -49,52 +49,46 @@
     background-color: rgb(7, 148, 117);
     border: 2px solid rgb(7, 148, 117);
 }
-.ButtonContainer {
-    background-color: white;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-}
+
 .ListBtn {
-    width: 200px;
+    width: 40px;
     height: 40px;
-    border-radius: 5px;
     outline: none;
-    font-size: 15px;
+    font-size:20px;
     text-transform: uppercase;
     color: white;
+    border: none;
+    float: right;
 }
 .Check {
-    border: 2px solid rgb(20,218,175);
     background-color: rgb(20,218,175);
-    margin: 0px 10px 0px 20px;
-}
+}  
 .Check:hover {
     background-color: rgb(7, 148, 117);
-    border: 2px solid rgb(7, 148, 117);
+    border:none;
 }
 .Cross {
-    border: 2px solid rgb(253, 65, 59);
+    border: none;
     background-color: rgb(253, 65, 59);
 }
 .Cross:hover {
     background-color: rgb(241, 47, 41);
-    border: 2px solid rgb(241, 47, 41);
+    border:none;
 }
+
 ul  {
     list-style-type: none;
     padding: 20px;
-    width: 1000px;
+    width: 100%;
     margin: 20px auto 0px auto;
 }
 ul li {
-    border: 2px solid rgb(161, 161, 161);
-    border-radius: 5px;
-    width: 500px;
+    background-color: white;
+    width: 700px;
     height: 40px;
     box-sizing: border-box;
-    padding: 4px 4px;
-    display: inline-block;
-    color: rgb(161, 161, 161);
+    display: black;
+    color: black;
     text-transform: uppercase;
+    margin: 20px auto 0px auto;
 }

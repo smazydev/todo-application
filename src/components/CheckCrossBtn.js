@@ -8,8 +8,8 @@ export const CheckCrossBtn = () => {
     const Cross = <FontAwesomeIcon icon={faWindowClose}/> 
     return (
         <>
-            <button className="Check ListBtn">{Check} mark complete</button>
-            <button className="Cross ListBtn">{Cross} delete task</button>
-        </>
+            <button className="Check ListBtn">{Check}</button>
+            <button className="Cross ListBtn">{Cross}</button>
+        </>       
     )
 }

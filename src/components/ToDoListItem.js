@@ -1,18 +1,11 @@
 import React from 'react'
 import {CheckCrossBtn} from '../components/CheckCrossBtn';
-import '../App.css';
 
-
-export const ToDoListItem = ({Item}) => {
-    
+export const ToDoListItem = ({text}) => {
     return (
-        <div className="ListContainer">
-            <ul>
-                <li>
-                    {Item}
-                </li>
-                <CheckCrossBtn/>
-            </ul>
-        </div>
+            <li>
+                {text}
+                <CheckCrossBtn/>       
+            </li>
     )
 }
