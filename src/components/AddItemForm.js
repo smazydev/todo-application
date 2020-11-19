@@ -15,7 +15,6 @@ export const AddItemForm = ({setItem,todos,setTodos,item}) => {
         setItem("");
     };
 
-    console.log(todos)
 
     return (
         <div className="FormContainer">
