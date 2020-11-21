@@ -49,6 +49,10 @@
     background-color: rgb(7, 148, 117);
     border: 2px solid rgb(7, 148, 117);
 }
+.completed  {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
 
 .ListBtn {
     width: 40px;
